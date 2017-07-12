@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E259EF161E823F8D009BF034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259EF151E823F8D009BF034 /* AppDelegate.swift */; };
-		E259EF181E823F8D009BF034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259EF171E823F8D009BF034 /* ViewController.swift */; };
+		E2399ACE1F156A8A003DFE21 /* AppInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2399ACD1F156A8A003DFE21 /* AppInfoController.swift */; };
+		E2399AD01F1576F6003DFE21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2399ACF1F1576F6003DFE21 /* ViewController.swift */; };
+		E2399AD51F15772E003DFE21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2399AD41F15772E003DFE21 /* AppDelegate.swift */; };
+		E2399ADB1F15A08A003DFE21 /* customcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2399ADA1F15A08A003DFE21 /* customcell.swift */; };
 		E259EF1B1E823F8D009BF034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E259EF191E823F8D009BF034 /* Main.storyboard */; };
 		E259EF1D1E823F8D009BF034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E259EF1C1E823F8D009BF034 /* Assets.xcassets */; };
 		E259EF201E823F8D009BF034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E259EF1E1E823F8D009BF034 /* LaunchScreen.storyboard */; };
 		E259EF2B1E823F8D009BF034 /* WebServceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259EF2A1E823F8D009BF034 /* WebServceDemoTests.swift */; };
 		E259EF361E823F8D009BF034 /* WebServceDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259EF351E823F8D009BF034 /* WebServceDemoUITests.swift */; };
+		E259EF451E824064009BF034 /* WebServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259EF441E824064009BF034 /* WebServiceInterface.swift */; };
+		E259EF481E8240A6009BF034 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259EF471E8240A6009BF034 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2399ACD1F156A8A003DFE21 /* AppInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppInfoController.swift; path = UI/AppInfoController.swift; sourceTree = "<group>"; };
+		E2399ACF1F1576F6003DFE21 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = UI/ViewController.swift; sourceTree = "<group>"; };
+		E2399AD41F15772E003DFE21 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppDelegate/AppDelegate.swift; sourceTree = "<group>"; };
+		E2399ADA1F15A08A003DFE21 /* customcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customcell.swift; path = UI/customcell.swift; sourceTree = "<group>"; };
 		E259EF121E823F8D009BF034 /* WebServceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E259EF151E823F8D009BF034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E259EF171E823F8D009BF034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E259EF1A1E823F8D009BF034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E259EF1C1E823F8D009BF034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E259EF1F1E823F8D009BF034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,8 @@
 		E259EF311E823F8D009BF034 /* WebServceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebServceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E259EF351E823F8D009BF034 /* WebServceDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServceDemoUITests.swift; sourceTree = "<group>"; };
 		E259EF371E823F8D009BF034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E259EF441E824064009BF034 /* WebServiceInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebServiceInterface.swift; path = WebserviceHandler/WebServiceInterface.swift; sourceTree = "<group>"; };
+		E259EF471E8240A6009BF034 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Constants/Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2399AD31F157714003DFE21 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E2399AD41F15772E003DFE21 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 		E259EF091E823F8D009BF034 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +113,10 @@
 		E259EF141E823F8D009BF034 /* WebServceDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E259EF151E823F8D009BF034 /* AppDelegate.swift */,
-				E259EF171E823F8D009BF034 /* ViewController.swift */,
+				E2399AD31F157714003DFE21 /* AppDelegate */,
+				E259EF4D1E824123009BF034 /* UI */,
+				E259EF461E82406A009BF034 /* Constants */,
+				E259EF431E823FE0009BF034 /* WebserviceHandler */,
 				E259EF191E823F8D009BF034 /* Main.storyboard */,
 				E259EF1C1E823F8D009BF034 /* Assets.xcassets */,
 				E259EF1E1E823F8D009BF034 /* LaunchScreen.storyboard */,
@@ -123,6 +141,32 @@
 				E259EF371E823F8D009BF034 /* Info.plist */,
 			);
 			path = WebServceDemoUITests;
+			sourceTree = "<group>";
+		};
+		E259EF431E823FE0009BF034 /* WebserviceHandler */ = {
+			isa = PBXGroup;
+			children = (
+				E259EF441E824064009BF034 /* WebServiceInterface.swift */,
+			);
+			name = WebserviceHandler;
+			sourceTree = "<group>";
+		};
+		E259EF461E82406A009BF034 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E259EF471E8240A6009BF034 /* Constant.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		E259EF4D1E824123009BF034 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E2399ADA1F15A08A003DFE21 /* customcell.swift */,
+				E2399ACD1F156A8A003DFE21 /* AppInfoController.swift */,
+				E2399ACF1F1576F6003DFE21 /* ViewController.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E259EF181E823F8D009BF034 /* ViewController.swift in Sources */,
-				E259EF161E823F8D009BF034 /* AppDelegate.swift in Sources */,
+				E2399AD51F15772E003DFE21 /* AppDelegate.swift in Sources */,
+				E2399AD01F1576F6003DFE21 /* ViewController.swift in Sources */,
+				E259EF451E824064009BF034 /* WebServiceInterface.swift in Sources */,
+				E2399ADB1F15A08A003DFE21 /* customcell.swift in Sources */,
+				E259EF481E8240A6009BF034 /* Constant.swift in Sources */,
+				E2399ACE1F156A8A003DFE21 /* AppInfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +553,7 @@
 				E259EF3C1E823F8D009BF034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E259EF3D1E823F8D009BF034 /* Build configuration list for PBXNativeTarget "WebServceDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +562,7 @@
 				E259EF3F1E823F8D009BF034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E259EF401E823F8D009BF034 /* Build configuration list for PBXNativeTarget "WebServceDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +571,7 @@
 				E259EF421E823F8D009BF034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,10 +1,5 @@
-//
-//  AppDelegate.swift
-//  WebServceDemo
-//
-//  Created by Vivek on 2017-03-22.
-//  Copyright © 2017 VivekVardhan. All rights reserved.
-//
+
+
 
 import UIKit
 
